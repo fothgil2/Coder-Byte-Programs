@@ -1,5 +1,5 @@
-﻿var stringMes = "coderbyte";
-//should return "ifmmp xpsme"
+﻿var stringMes = "Hello World";
+//should return "Ifmmp xpsmE"
 
 function charChange(str) {
     //"use strict";
@@ -7,7 +7,9 @@ function charChange(str) {
     var character;
     for (var i = 0; i < str.length; i++) { //runs through the string to get all of the character positions
         character = str.charCodeAt(i); //takes the character code at position i
-        if (character > 64 && character < 91 || character > 96 && character < 123) {
+        //checks to see if character is between 'A' and 'Z' or 'a' and 'z', so it won't affect special chars or spaces
+        if (character > 64 && character < 91 || character > 96 && character < 123) { 
+        
             character = character + 1; //adds 1 to shift the value
 
             if (character == 123) { character = 65; } //changes z to A
@@ -17,7 +19,7 @@ function charChange(str) {
             else if (character == 117) { character = 85; } //changes u to U
 
        }
-       newString += String.fromCharCode(character);
+       newString += String.fromCharCode(character); //reforms the string
     }
     return newString;
 }
