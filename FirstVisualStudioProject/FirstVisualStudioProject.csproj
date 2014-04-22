@@ -71,8 +71,8 @@
     <Content Include="Factorial.js" />
     <Content Include="index.html" />
     <Content Include="LongestWord.js" />
-    <Content Include="main.js" />
-    <Content Include="Pallindrome2.js" />
+    <Content Include="Reverse.js" />
+    <Content Include="Palindrome2.js" />
     <Content Include="PrimeMover.js" />
     <Content Include="PrimeTime.js" />
     <Content Include="RunLength.js" />
