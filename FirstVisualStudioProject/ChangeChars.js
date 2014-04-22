@@ -1,5 +1,5 @@
-﻿var stringMes = "coderbyte";
-//should return "ifmmp xpsme"
+﻿var stringMes = "hello world";
+//should return "Ifmmp xpsmE"
 
 function charChange(str) {
     //"use strict";
