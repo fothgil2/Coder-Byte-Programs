@@ -15,6 +15,7 @@ function charChange(str) {
             else if (character == 105) { character = 73; } //changes i to I
             else if (character == 111) { character = 79; } //changes o to O
             else if (character == 117) { character = 85; } //changes u to U
+            else if (character == 90)  { character = 65; } //changez Z to A 
 
        }
        newString += String.fromCharCode(character);
