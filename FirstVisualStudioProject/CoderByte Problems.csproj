@@ -65,19 +65,25 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AlphabetSoup.js" />
     <Content Include="ChangeChars.js" />
     <Content Include="Division.js" />
     <Content Include="ExOh.js" />
     <Content Include="Factorial.js" />
     <Content Include="index.html" />
+    <Content Include="LetterCapitalize.js" />
     <Content Include="LongestWord.js" />
     <Content Include="Reverse.js" />
     <Content Include="Palindrome2.js" />
     <Content Include="PrimeMover.js" />
     <Content Include="PrimeTime.js" />
     <Content Include="RunLength.js" />
+    <Content Include="SimpleSymbols.js" />
     <Content Include="SimpleAdding.js" />
+    <Content Include="StringScramble.js" />
     <Content Include="Styles.css" />
+    <Content Include="TimeConvert.js" />
+    <Content Include="VowelCount.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
